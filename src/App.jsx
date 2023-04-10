@@ -89,6 +89,13 @@ const App = () => {
                 <option key={genre.id}>{genre.name}</option>
               ))}
             </select>
+            <button
+              className="btn"
+              type="submit"
+              onClick={() => console.log("submitting")}
+            >
+              Submit
+            </button>
           </form>
         </div>
       </section>

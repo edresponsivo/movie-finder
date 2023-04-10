@@ -68,11 +68,18 @@ section {
 .peli-ref {
   padding: 1px;
   list-style: none;
-
 }
 .person-photo {
   height: 100%;
   width: auto;
   object-fit: cover;
   border-radius: 10px;
+}
+.btn {
+  width: 90%;
+  margin: 1rem 0 0;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(47, 75, 90);
+  color: #fff;
 }
